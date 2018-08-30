@@ -1,0 +1,143 @@
+.fa-comment-alt{
+	padding-top: 20px; 
+	color: #ffffff;
+}
+#navbardrop1{
+	color: #ffffff;
+	padding-top: 17px;
+}
+
+#userProfile{
+	padding-top: 5px;
+}
+#userProfileName{
+	padding-left: 30px; 
+	color: #ffffff;
+}
+.navbar-right{
+	padding-left: 30vw;
+}
+.fa-search,.fa-paperclip,.nav-link{
+	color: #ffffff;
+}
+#viewBody{
+	padding-top:25vh;
+}
+.text-muted{
+	font-size: 12px;
+}
+#userimage{
+	padding: 10px 10px 10px 10px ;
+
+}
+.img-fluid{
+	height:"40";
+	width:"40";
+}
+
+.fa-check-double{
+	font-size: 8px; 
+	color: #0000ff;
+}
+.fa-smile{
+	font-size: 20px;
+	padding: 10px 0 0 100px;
+}
+.fa-microphone{
+	font-size: 20px; 
+	padding-top: 10px;
+}
+
+.notification{
+	padding-top: 10px;
+}
+.notificationrow{
+	padding-top: 10px;
+}
+.messagessection{
+	padding-top: 10px;
+}
+#footersection{
+	color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+@media screen and (max-width: 340px) {
+
+	#navbardrop{
+		color: #ffffff;
+		padding-top: 5px;
+	}
+	#navBarItems,.lefticons{
+		font-size: 10px;
+	}
+	.navbar-right,.lefticons{
+		padding-left: 10px;
+	}
+	#userProfile{
+		padding-top: 5px;
+	}
+	#userProfileName{
+		padding-left: 10px; 
+	}
+	#viewBody{
+		padding-top:350px;
+	}
+	.notificationrow{
+		padding-top: 50px;
+	}
+	.img-fluid{
+		max-height: 12vw;
+	}
+	.form-group{
+		padding-left: 10px;
+	}
+	#footersection{
+		font-size: 10px;
+	}  
+}
+@media screen and (min-width: 340px) and (max-width: 575px){
+
+	#navbardrop{
+		color: #ffffff;
+		padding-top: 5px;
+	}
+	#navBarItems,.lefticons{
+		font-size: 14px;
+	}
+	.navbar-right,.lefticons{
+		padding-left: 10px;
+	}
+	#userProfile{
+		padding-top: 5px;
+	}
+	#userProfileName{
+		padding-left: 10px; 
+	}
+	#viewBody{
+		padding-top:55vh;
+	}
+	.notificationrow{
+		padding-top: 50px;
+	}
+	.img-fluid{
+		max-height: 12vw;
+	}
+	.form-group{
+		padding-left: 10px;
+	}
+	#footersection{
+		font-size: 10px;
+	}  
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px){
+   	/*adjustments made*/
+   	#viewBody{
+		padding-top:25vh;
+	}
+	.navbar-right{
+		padding-left: 50vw;
+	}
+}
